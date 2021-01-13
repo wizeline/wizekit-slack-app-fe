@@ -1,79 +1,27 @@
-# Typescript + React + Parcel = ❤️
+# Kudos me frontend
 
-This repository has basic settings for buildling react application in Typescript.
+Frontend project for kudos-me app
 
-The original source code of the provided example is in [here](https://kentcdodds.com/blog/compound-components-with-react-hooks).
 
-## Built in settings
+## Development
 
-- React + ReactDOM (17.0+)
-- Typescript (with TSLint setting)
-- Prettier + tslint-config-prettier
-- Test configuration using Jest and [react-testing-library](https://github.com/kentcdodds/react-testing-library)
-- Parcel bundler (1.12+)
-
-## How to set up the project
-
-**Disclaimer**  
-Since I only use Yarn as my primary package manager, this repository will ignore `package-lock.json` file on commit.  
-If you prefer npm to Yarn, Please modify `.gitignore` file following your flavor.
+Install dependencies
 
 ```
-git clone git@github.com:adhrinae/ts-react-parcel.git
-cd ts-react-parcel
-yarn install
+npm i
 ```
 
-## How to start development for the application
-
-    # With type checking
-    yarn develop
-
-    # Transpile only
-    yarn start
-
-Execute the command and you can run & test the application on `localhost:1234` in the browser.
-
-## How to build the application
-
-    yarn build
-
-The default output directory is `/dist`. You can change the destination wherever you want.
-
+Start
 ```
-// package.json
-// ...
-"scripts": {
-  // ...
-  "build": "... parcel build ./src/index.html -d YOUR_OUTPUT_DIR --public-url '/'" <- Change here
-}
-// ...
+npm run develop
 ```
 
-## How to test the application
+# Kudos-me backend
 
-    yarn test       # run test once
-    yarn test:watch # watch mode
+https://github.com/wizeline/kudos-me
 
-You have to create `__tests__` directory at the same location of files which you want to test.
-Test file's name should be `SOURCE.test.ts/tsx/js` or `SOURCE.spec.ts/tsx/js`.
+# Deployment
 
-## Miscellaneous
+Currently, the backend deploy script will deploy both backend and frontend at once.
 
-This Project uses pre-commit hook for `prettier` and testing application.  
-If you don't like it, remove the `husky` package from your repository and erase following scripts.
-
-    yarn remove husky
-
-then
-
-```
-// package.json
-// ...
-"husky": {
-  "hooks": {
-    "pre-commit": "npm run prettify && npm run test"
-  }
-},
-// ...
-```
+https://github.com/wizeline/kudos-me/blob/master/cloudbuild/gae.yaml

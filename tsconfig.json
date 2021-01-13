@@ -6,7 +6,7 @@
     "jsx": "react",
     "rootDir": "./src",
     "incremental": true,
-    "tsBuildInfoFile":"./cache/tsconfig.tsbuildinfo",
+    "tsBuildInfoFile":".cache/tsconfig.tsbuildinfo",
     "experimentalDecorators": true,
     "lib": ["dom", "es2015"]
   }
