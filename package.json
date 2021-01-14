@@ -1,11 +1,11 @@
 {
-  "name": "kudos-me-frontend",
+  "name": "wizekit-slack-app-fe",
   "version": "1.0.0",
   "private": true,
-  "description": "Typescript with React, using parcel bundler",
+  "description": "WizeKit Slack App Frontend",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adhrinae/ts-react-parcel"
+    "url": "https://github.com/wizeline/wizekit-slack-app-fe"
   },
   "author": "duc.nguyen@wizeline.com",
   "license": "MIT",

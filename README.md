@@ -16,7 +16,7 @@ Start
 npm run develop
 ```
 
-# Kudos-me backend
+# Wizeket slack app backend
 
 https://github.com/wizeline/wizekit-slack-app
 
