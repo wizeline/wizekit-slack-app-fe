@@ -1,6 +1,6 @@
-# Kudos me frontend
+# WizeKit Slack App Frontend
 
-Frontend project for kudos-me app
+Frontend project for wizekit-slack-app app
 
 
 ## Development
