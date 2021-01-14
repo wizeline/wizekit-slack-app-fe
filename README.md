@@ -16,7 +16,7 @@ Start
 npm run develop
 ```
 
-# Wizeket slack app backend
+# Wizekit slack app backend
 
 https://github.com/wizeline/wizekit-slack-app
 
