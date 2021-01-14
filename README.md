@@ -18,10 +18,10 @@ npm run develop
 
 # Kudos-me backend
 
-https://github.com/wizeline/kudos-me
+https://github.com/wizeline/wizekit-slack-app
 
 # Deployment
 
 Currently, the backend deploy script will deploy both backend and frontend at once.
 
-https://github.com/wizeline/kudos-me/blob/master/cloudbuild/gae.yaml
+https://github.com/wizeline/wizekit-slack-app/blob/main/cloudbuild/gae.yaml
