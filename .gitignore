@@ -25,3 +25,4 @@ yarn-lock.json
 *.sw?
 build
 .cache
+coverage
