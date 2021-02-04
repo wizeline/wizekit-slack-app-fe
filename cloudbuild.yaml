@@ -5,7 +5,7 @@ steps:
 
 - name: node:14-alpine
   entrypoint: npm
-  args: ['run', 'lint']
+  args: ['run', 'type-check']
 
 - name: node:14-alpine
   entrypoint: npm
