@@ -25,3 +25,8 @@ https://github.com/wizeline/wizekit-slack-app
 Currently, the backend deploy script will deploy both backend and frontend at once.
 
 https://github.com/wizeline/wizekit-slack-app/blob/main/cloudbuild/gae.yaml
+
+
+# Dependencies
+
+- UI Framework: https://mui.com
