@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -15,7 +15,7 @@ import MailIcon from "@mui/icons-material/Mail";
 
 const drawerWidth = 240;
 
-export const App: React.FC = () =>{
+export const App: React.FC = () => {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
