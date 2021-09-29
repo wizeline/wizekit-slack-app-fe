@@ -27,5 +27,5 @@ build
 .cache
 coverage
 
-# NPM only
-yarn.lock
+# YARN only
+package-lock.json
