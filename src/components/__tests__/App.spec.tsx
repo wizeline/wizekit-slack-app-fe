@@ -10,5 +10,5 @@ import { App } from "../App";
 test("App Component renders with toggle switch", () => {
   const wrap = render(<App />);
 
-  expect(wrap.getByText("Hello World")).toBeInTheDocument();
+  expect(wrap.getByText("Permanent drawer")).toBeInTheDocument();
 });

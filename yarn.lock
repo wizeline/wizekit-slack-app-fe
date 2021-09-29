@@ -1300,7 +1300,14 @@
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
-"@mui/material@^5.0.2":
+"@mui/icons-material@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.0.1.tgz#fb7ffeba0b3604aab4a9b91644d2fc1aabb3b4f1"
+  integrity sha512-AZehR/Uvi9VodsNPk9ae1lENKrf1evqx9suiP6VIqu7NxjZOlw/m/yA2gRAMmLEmIGr7EChfi/wcXuq6BpM9vw==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+
+"@mui/material@^5.0.0-rc.0":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.0.2.tgz#380cf0ef42c538a68158b4da19c317178b22d10f"
   integrity sha512-LD2xHSjTLmbN0UoCuKTu09L/7JjpEzg+Cophf+dVJOTNoK7VI0Eqv3bmpF/9pDIk5dVKmeU9Eh4t2lW1ZifM6A==
@@ -1600,7 +1607,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17.0.21":
+"@types/react@*", "@types/react@^16.8.6 || ^17.0.0":
   version "17.0.24"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.24.tgz#7e1b3f78d0fc53782543f9bce6d949959a5880bd"
   integrity sha512-eIpyco99gTH+FTI3J7Oi/OH8MZoFMJuztNRimDOJwH4iGIsKV2qkGnk4M9VzlaVWeEEWLWSQRy0FEA0Kz218cg==
