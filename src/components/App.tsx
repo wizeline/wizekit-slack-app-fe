@@ -1,26 +1,25 @@
 import React from "react";
-import { Dashboard } from './Dashboard';
+import { Dashboard } from "./Dashboard";
 import { Switch, Route } from "react-router-dom";
-import { Login } from './Login';
-import { Logout } from './Logout';
+import { Login } from "./Login";
+import { Logout } from "./Logout";
 export const App: React.FC = () => {
   return (
     <>
       <Switch>
-        <Route path="/dashboard" >
+        <Route path="/dashboard">
           <Dashboard />
         </Route>
-        <Route path="/" exact >
+        <Route path="/" exact>
           <Dashboard />
         </Route>
-        <Route path="/login" >
+        <Route path="/login">
           <Login />
         </Route>
-        <Route path="/logout" >
+        <Route path="/logout">
           <Logout />
         </Route>
       </Switch>
-
     </>
   );
 };
