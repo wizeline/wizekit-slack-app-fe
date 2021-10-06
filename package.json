@@ -13,7 +13,7 @@
   "scripts": {
     "develop": "concurrently -r \"npm:type-check:watch\" \"npm:start\"",
     "start": "parcel ./src/index.html --port 3000",
-    "build": "npm run type-check && parcel build ./src/index.html --public-url '/'",
+    "build": "parcel build ./src/index.html --public-url '/'",
     "prettify": "prettier --write './src/**/*.{ts,tsx}'",
     "test": "jest",
     "test:coverage": "jest --coverage",
@@ -22,11 +22,6 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "tsc --noEmit --watch",
     "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettify && npm run test"
-    }
   },
   "engines": {
     "node": ">= 14.0.0",
