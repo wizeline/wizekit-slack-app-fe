@@ -5,7 +5,12 @@ const Loader: React.FC = () => {
     <div>
       <Screen>
         <ScreenBox>
-          <img src={require("../../assets/wizelinelogo.png")} alt="wizeline" height={80} width={80} />
+          <img
+            src={require("../../assets/wizelinelogo.png")}
+            alt="wizeline"
+            height={80}
+            width={80}
+          />
           <div>Please standby ...</div>
         </ScreenBox>
       </Screen>
