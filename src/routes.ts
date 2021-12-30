@@ -5,11 +5,11 @@ export const routes = [
   {
     path: "/",
     element: Dashboard,
-    exact:true
+    exact: true,
   },
   {
     path: "/login",
     element: Login,
-    exact:false
+    exact: false,
   },
 ];
