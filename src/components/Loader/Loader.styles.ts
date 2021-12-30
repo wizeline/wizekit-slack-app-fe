@@ -1,4 +1,4 @@
-import styled from '@emotion/styled'
+import styled from "@emotion/styled";
 
 export const Screen = styled.div`
   position: fixed;
@@ -20,10 +20,10 @@ export const Screen = styled.div`
       transform: rotate(360deg);
     }
   }
-`
+`;
 
 export const ScreenBox = styled.div`
   width: 160px;
   margin: 0 auto;
   text-align: center;
-`
+`;
