@@ -7,7 +7,7 @@ import Container from "@mui/material/Container";
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
-export const Login: React.FC = () => {
+const Login: React.FC = () => {
   const history = useHistory();
 
   const [loading, setLoading] = useState<boolean>(false);
@@ -50,3 +50,4 @@ export const Login: React.FC = () => {
     </Container>
   );
 };
+export default Login;
